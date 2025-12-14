@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-2xl px-6 py-32">
       <h1 className="text-4xl font-semibold">
-        Hi. I’m Sai. Welcome to SaiShare.
+        Hi. I’m Sai.
       </h1>
 
       <p className="mt-6 text-lg leading-relaxed text-zinc-600">
