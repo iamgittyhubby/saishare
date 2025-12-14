@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sai Zin",
+  title: "SaiShare",
   description: "Writing about AI, work systems, and life.",
 };
 
