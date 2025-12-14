@@ -5,7 +5,9 @@ export default function Essays() {
 
       <ul>
         <li>
-          <a href="/essays/example-essay">Example Essay Title</a>
+          <a href="/essays/documentation-the-most-underrated-skill">
+            Documentation: The Most Underrated Skill
+          </a>
         </li>
       </ul>
     </main>
