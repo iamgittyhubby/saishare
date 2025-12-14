@@ -1,15 +1,19 @@
 export default function Home() {
   return (
-    <main className="mx-auto max-w-2xl px-6 py-16">
-      <h1 className="text-3xl font-semibold">Sai Zin</h1>
+    <main className="mx-auto max-w-2xl px-6 py-32">
+      <h1 className="text-4xl font-semibold">Hi, I’m Sai.</h1>
 
-      <p className="mt-4 text-zinc-600">
-        Writing about AI, work systems, and life.
+      <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
+        Welcome to SaiShare — my personal space on the internet. It’s where I
+        think out loud, build things, and follow my curiosity across work,
+        technology, art, and culture.
       </p>
 
-      <a className="mt-8 inline-block underline" href="/essays">
-        Read essays
-      </a>
+      <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
+        Take a look around. If something here resonates with you, I’d love to hear from
+        you.
+      </p>
+
     </main>
   );
 }
