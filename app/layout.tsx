@@ -6,17 +6,11 @@ export const metadata: Metadata = {
   description: "Writing about AI, work systems, and life.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        <div className="mx-auto max-w-xl px-6">
-          {children}
-        </div>
+      <body>
+        <div className="wrap">{children}</div>
       </body>
     </html>
   );

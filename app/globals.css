@@ -75,3 +75,15 @@ body {
     /* neutral-600 */
   }
 }
+
+/* Lee-style centered reading column */
+.wrap {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Lee-style vertical placement */
+.page {
+  padding-top: 8rem;
+}
