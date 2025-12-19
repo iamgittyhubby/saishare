@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="page">
+    <main className="page pt-32">
       <h1 className="h1-lee">Hi, I’m Sai.</h1>
 
       <p className="text-copy p-lee">
