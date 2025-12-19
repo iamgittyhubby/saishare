@@ -8,17 +8,6 @@ body {
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Page vertical spacing */
-.page {
-  margin-top: 0;
-}
-
-@media (min-width: 768px) {
-  .page {
-    margin-top: 4rem;
-  }
-}
-
 /* Body copy */
 .text-copy {
   font-size: 15px;
