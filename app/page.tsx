@@ -11,11 +11,6 @@ export default function Home() {
       </p>
 
       <p className="text-copy p-lee">
-        I created SaiShare to share my thoughts on work, technology, art, and
-        culture.
-      </p>
-
-      <p className="text-copy p-lee">
         You can read{" "}
         <a className="link-lee" href="/essays">
           my writing
