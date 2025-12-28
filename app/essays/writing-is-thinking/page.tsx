@@ -12,7 +12,7 @@ export default function Page() {
       </p>
 
       <p className="text-copy p-lee">
-        Sometimes, I don’t even know what my take is on a topic until I write.
+        Sometimes, I don’t know what my take is on a topic until I write.
       </p>
 
       <p className="text-copy p-lee">
