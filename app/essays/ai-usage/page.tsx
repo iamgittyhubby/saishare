@@ -16,7 +16,7 @@ export default function Page() {
       </p>
 
       <p className="text-copy p-lee">
-        When people cannot speak honestly about how they use AI, we cannot learn
+        If people cannot speak honestly about how they use AI, we cannot learn
         what helps, what harms, or where to draw the line.
       </p>
     </main>

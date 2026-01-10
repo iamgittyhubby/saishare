@@ -7,6 +7,9 @@ export default function Page() {
 
       <ul>
         <li>
+          <Link href="/game">I Built a Word Game</Link>
+        </li>
+        <li>
           <Link href="/essays/ai-usage">AI Usage</Link>
         </li>
         <li>
@@ -21,4 +24,3 @@ export default function Page() {
     </main>
   );
 }
-
