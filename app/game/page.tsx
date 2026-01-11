@@ -257,10 +257,7 @@ export default function GamePage() {
               <>
                 Solved.
                 <br />
-                <a
-                  href="/game"
-                  style={{ color: "#999", textDecoration: "none" }}
-                >
+                <a href="/game" style={{ color: "#999", textDecoration: "none" }}>
                   Try another
                 </a>
               </>
@@ -271,16 +268,62 @@ export default function GamePage() {
                   {phrase}
                 </span>
                 <br />
-                <a
-                  href="/game"
-                  style={{ color: "#999", textDecoration: "none" }}
-                >
+                <a href="/game" style={{ color: "#999", textDecoration: "none" }}>
                   Try another
                 </a>
               </>
             )}
           </div>
         )}
+
+        {/* Essay */}
+        <div style={{ marginTop: "6rem" }}>
+          <h2>Why I built this</h2>
+          <p>
+            I built this game for two reasons. First, I wanted to challenge myself to
+            build a game. Second, I wanted to build something fun.
+          </p>
+          <p>
+            Growing up, I loved word games like Hangman, Scribble, and Wheel of Fortune.
+            They were simple, but they held your attention. With that in mind, I set out
+            to build something that combined elements of all three.
+          </p>
+
+          <h2>How I built it</h2>
+          <p>
+            I started with the end in mind. Before writing any code, I was clear about
+            how the game should feel: simple, quiet, and slightly uncomfortable.
+          </p>
+          <p>
+            I used AI as part of the process, but not as the source of the idea. I used
+            ChatGPT as a brainstorming partner to help organize my thinking. Once the
+            idea was clear, I used Claude to build a quick visual demo so I could see how
+            the game might look and feel. After that, I came back to ChatGPT to help
+            implement the game step by step.
+          </p>
+
+          <h2>Key takeaways</h2>
+          <p>
+            <strong>1. Start simple.</strong> When you try to build something, it’s easy
+            to add more than you need. Going back to the core and removing unnecessary
+            pieces made the game stronger.
+          </p>
+          <p>
+            <strong>2. Don’t lose momentum.</strong> The moment you have an idea is when
+            your energy is highest. Building quickly while that excitement is still
+            there helps carry the project forward.
+          </p>
+          <p>
+            <strong>3. Be clear about your vision.</strong> I like to work backwards,
+            starting with the end experience in mind. When the goal is clear, decisions
+            along the way become easier.
+          </p>
+          <p>
+            <strong>4. AI is a tool, not a replacement.</strong> AI works best when it
+            helps execute a clear vision. It doesn’t replace judgment. It amplifies it.
+            The direction still has to come from you.
+          </p>
+        </div>
       </div>
     </main>
   );
